@@ -139,6 +139,12 @@ $ cwd
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/process/chdir`][@stdlib/process/chdir]: change the current working directory.
+
 </section>
 
 <!-- /.related -->
@@ -199,6 +205,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/process-cwd/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/process/chdir]: https://github.com/stdlib-js/process-chdir
+
+<!-- </related-links> -->
 
 </section>
 

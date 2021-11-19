@@ -20,7 +20,7 @@ limitations under the License.
 
 # cwd
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return the current working directory.
 
@@ -143,7 +143,7 @@ $ cwd
 
 ## See Also
 
--   [`@stdlib/process/chdir`][@stdlib/process/chdir]: change the current working directory.
+-   <span class="package-name">[`@stdlib/process/chdir`][@stdlib/process/chdir]</span><span class="delimiter">: </span><span class="description">change the current working directory.</span>
 
 </section>
 
@@ -194,8 +194,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/process-cwd/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/process-cwd?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/process-cwd.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/process-cwd/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/

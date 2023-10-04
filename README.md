@@ -35,79 +35,19 @@ limitations under the License.
 
 > Return the current working directory.
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/process-cwd
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-</section>
 
-<section class="usage">
 
-## Usage
 
-```javascript
-var cwd = require( '@stdlib/process-cwd' );
-```
-
-#### cwd()
-
-Returns the current working directory.
-
-```javascript
-var dir = cwd();
-// e.g., returns '/path/to/current/working/directory'
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="notes">
-
-## Notes
-
--   In browser environments, the current working directory is always equal to `'/'`.
-
-</section>
-
-<!-- /.notes -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var PATH_SEP = require( '@stdlib/constants-path-sep' );
-var cwd = require( '@stdlib/process-cwd' );
-
-var parts = cwd().split( PATH_SEP );
-console.log( parts );
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -125,7 +65,7 @@ npm install -g @stdlib/process-cwd-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: cwd [options]
@@ -142,7 +82,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ cwd
@@ -161,10 +101,9 @@ $ cwd
 
 <section class="related">
 
-* * *
-
 ## See Also
 
+-   <span class="package-name">[`@stdlib/process-cwd`][@stdlib/process-cwd]</span><span class="delimiter">: </span><span class="description">return the current working directory.</span>
 -   <span class="package-name">[`@stdlib/process-chdir`][@stdlib/process/chdir]</span><span class="delimiter">: </span><span class="description">change the current working directory.</span>
 
 </section>
@@ -184,7 +123,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -207,8 +146,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/process-cwd.svg
-[npm-url]: https://npmjs.org/package/@stdlib/process-cwd
+[npm-image]: http://img.shields.io/npm/v/@stdlib/process-cwd-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/process-cwd-cli
 
 [test-image]: https://github.com/stdlib-js/process-cwd/actions/workflows/test.yml/badge.svg?branch=v0.1.1
 [test-url]: https://github.com/stdlib-js/process-cwd/actions/workflows/test.yml?query=branch:v0.1.1

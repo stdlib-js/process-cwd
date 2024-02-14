@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@deno/mod.js';
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.0-deno/mod.js';
 ```
 
 #### cwd()
@@ -76,7 +76,7 @@ var dir = cwd();
 
 ```javascript
 import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
-import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@deno/mod.js';
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.0-deno/mod.js';
 
 var parts = cwd().split( PATH_SEP );
 console.log( parts );

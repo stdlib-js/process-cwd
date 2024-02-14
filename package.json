@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/process-cwd",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Return the current working directory.",
   "license": "Apache-2.0",
   "author": {
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@stdlib/cli-ctor": "^0.1.1",
-    "@stdlib/fs-read-file": "^0.1.1"
+    "@stdlib/fs-read-file": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.1",

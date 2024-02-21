@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/process-cwd/tags). For example,
+
+```javascript
 import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.1-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ var dir = cwd();
 <script type="module">
 
 import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@esm/index.mjs';
-import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.1-esm/index.mjs';
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@esm/index.mjs';
 
 var parts = cwd().split( PATH_SEP );
 console.log( parts );

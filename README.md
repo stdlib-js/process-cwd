@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/process-cwd/tags). For example,
+
+```javascript
 import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.2-deno/mod.js';
 ```
 
@@ -76,7 +81,7 @@ var dir = cwd();
 
 ```javascript
 import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
-import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@v0.2.2-deno/mod.js';
+import cwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-cwd@deno/mod.js';
 
 var parts = cwd().split( PATH_SEP );
 console.log( parts );
